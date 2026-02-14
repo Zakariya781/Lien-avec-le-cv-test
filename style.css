@@ -1,0 +1,17 @@
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    .cards-wrapper .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-wrapper .col-sm-6 {
+        width: 100%;
+        max-width: 400px;
+    }
+}
